@@ -8,8 +8,8 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import StartPage from "./Components/StartQuestions/StartPage.jsx";
-import Question from "./Components/Questions/Question.jsx";
+import StartPage from "./pages/StartPage.jsx";
+import Question from "./pages/Question.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

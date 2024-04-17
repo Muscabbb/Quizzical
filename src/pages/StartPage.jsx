@@ -10,8 +10,8 @@ function StartPage() {
         Some description if needed
       </p>
       <Link to={"/questions"}>
-        <button className="start-quiz p-2 rounded-md w-[28] quiz-bg text-white text-3xl font-normal focus:outline-none focus:ring ring-blue-100 cursor-pointer">
-          Start Quiz
+        <button className="start-quiz p-2 rounded-md w-[28] quiz-bg text-white text-2xl  font-normal focus:outline-none focus:ring ring-blue-100 cursor-pointer">
+          Start Quiz <span className="text-lg">🎮</span>
         </button>
       </Link>
     </div>
